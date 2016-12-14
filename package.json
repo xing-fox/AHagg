@@ -1,0 +1,22 @@
+{
+  "name": "fox",
+  "version": "1.0.0",
+  "description": "爱个购官网",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xing-fox/AHagg.git"
+  },
+  "keywords": [
+    "安徽爱个购官网"
+  ],
+  "author": "fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xing-fox/AHagg/issues"
+  },
+  "homepage": "https://github.com/xing-fox/AHagg#readme"
+}
