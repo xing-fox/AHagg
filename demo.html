@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ZH-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0,user-scalable=no,minimal-ui">
+    <meta name="author" content="Fox">
+    <meta name="description" content="安徽爱个购">
+    <meta name="keywords" content="安徽爱个购">
+    <meta name="Resource-type" content="爱个购">
+    <link rel="icon" href="./icon/icon.png" type="icon.png">
+    <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    <link rel="stylesheet" href="./css/normal/reset.css">
+    <link rel="stylesheet" href="./css/demo.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <title> 安徽爱个购</title>
+</head>
+
+<body>
+    <div class="headers">
+        <dic id="nav">
+            <div class="img-icon">
+                <img src="./icon/icon.png">
+                <span>安徽爱个购</span>
+            </div>
+            <ul class="nav">
+                <li><a href='index.html'>首页</a></li>
+                <li><a href='server.html'>服务范围</a></li>
+                <li><a href='demo.html'>经典案例</a></li>
+                <li><a href='team.html'>团队</a></li>
+                <li><a href='contactUs.html'>联系我们</a></li>
+            </ul>
+        </dic>
+        <div class="bg">
+        </div>
+    </div>
+    <div class="container">
+        <div class="containers">
+            <div class="cont-title">
+                <span>经典案例</span>
+            </div>
+            <ul class="cont-list">
+                <li>软件技术外包</li>
+                <li>微信、app开发、应用市场</li>
+                <li>智能硬件服务</li>
+                <li>设计服务</li>
+                <li>运营策划、咨询服务</li>
+                <li>同城配送、供应链Sass平台</li>
+            </ul>
+            <ul class="cont-list-demo">
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+                <li>
+                    <img src="./images/img2.png" alt="">
+                    <div class="name">爱个购o2o项目</div>
+                    <div class="intro">IOS,Android,微信,后台,网站</div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">成功案例</a></li>
+                <li><a href="#">服务范围</a></li>
+                <li><a href="#">团队优势</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <p>Copyright©2016，安徽爱个购电子商务有限公司版权所有 皖ICP备13050915号</p>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.cont-list li').click(function(){
+                $(this).css({
+                    'background':'#0070ff',
+                    'color':'#fff'
+                }).siblings('li').css({
+                    'background':'#eee',
+                    'color':'#000'
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

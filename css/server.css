@@ -1,0 +1,267 @@
+.header .proJ {
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+    overflow: hidden;
+}
+
+.header .proJ .item1 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: 4%;
+    left: 10%;
+}
+
+.header .proJ .item2 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -12%;
+    left: 25%;
+}
+
+.header .proJ .item3 {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    margin-top: 4%;
+    left: 40%;
+}
+
+.header .proJ .item4 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -12%;
+    left: 55%;
+}
+
+.header .proJ .item5 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: 4%;
+    left: 70%;
+}
+
+.header .proJ .item6 {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -12%;
+    right: 8%;
+}
+
+.header .proJ-item img {
+    width: 100%;
+}
+
+.header .proJ-item .css1 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation-name: fade;
+    -webkit-animation-name: fade;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.header .proJ-item .css11 {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation-name: fade;
+    -webkit-animation-name: fade;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.header .proJ-item .css2 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation-name: fade;
+    -webkit-animation-name: fade1;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.header .proJ-item .css22 {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation-name: fade;
+    -webkit-animation-name: fade1;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: .5;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes fade1 {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: .5;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.item1-css {
+    border: 3px solid #dfd316;
+}
+
+.item2-css {
+    border: 3px solid #16cadf;
+}
+
+.item3-css {
+    border: 3px solid #dd16df;
+}
+
+.item4-css {
+    border: 3px solid #16d56a;
+}
+
+.item5-css {
+    border: 3px solid #007eff;
+}
+
+.item6-css {
+    border: 3px solid #ff7a31;
+}
+.proJ-item .animal{
+    display:none;
+}
+html,body{
+    background:#f6f6f6;
+}
+.containers{
+    width:1100px;
+    margin:0 auto;
+    background:#fff;
+    padding-bottom:20px;
+}
+.container{
+    width:100%;
+    position:absolute;
+    top:700px;
+    left:0;
+    z-index:100;
+}
+.container .cont-title{
+    padding:55px 0 40px 70px;
+    box-sizing:border-box;
+    color:#000;
+    font-size: 36px;
+}
+.container .cont-main{
+    margin:30px 70px;
+}
+.container .cont-main li{
+    list-style:none;
+    height:180px;
+    width:100%;
+    font-size:0;
+    position:relative;
+    background:#f6f6f6;
+    margin-bottom:20px;
+}
+.container .cont-main li .cont-main-left{
+    width:180px;
+    height:180px;
+    display:inline-block;
+}
+.container .cont-main li .cont-main-left img{
+    width:80px;
+    height:80px;
+    margin:50px;
+}
+.cont-main-right{
+    width:700px;
+    position:absolute;
+    top:0;
+    left:180px;
+    bottom:0;
+    margin:auto 0;
+    display:table;
+}
+.cont-main-right .name{
+    color:#000;
+    font-size:18px;
+    margin-bottom:24px;
+}
+.cont-main-right .intro{
+    color:#666;
+    font-size:14px;
+    line-height: 20px;
+}
