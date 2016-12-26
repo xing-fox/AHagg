@@ -342,7 +342,26 @@
     font-size:14px;
     border-bottom:1px solid #eee;
     box-sizing:border-box;
+    position:relative;
+    text-align: center;
+    color:#666;
 }
+
+.cont1 .cont1-pro .pro-item ul li img{
+    height:35px;
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    margin:45px auto;
+    display:inline-block;
+}
+
+.cont1 .cont1-pro .pro-item ul li span{
+    width:100%;
+    position:absolute;
+    bottom:20px;
+    left:0;
+}
+
 .cont1 .cont1-pro .pro-item{
     margin-bottom:20px;
 }

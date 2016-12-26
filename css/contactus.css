@@ -16,18 +16,6 @@ html,body{
     left: 0;
     z-index: 1;
 }
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-　　 color: #007eff !important;
-}
-input:-moz-placeholder, textarea:-moz-placeholder {
-  　color:#007eff !important;
-}
-input::-moz-placeholder, textarea::-moz-placeholder {
-    color:#007eff !important;
-}
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-    color:#007eff !important;
-}
 .container{
     width:100%;
     background: #fff;
@@ -38,6 +26,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     width:1100px;
     text-align: center;
     font-size:0;
+    position:relative;
 }
 .container .infor .infor-title{
     color:#333;
@@ -55,7 +44,42 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     text-align: center;
     background: none;
     line-height: 20px;
+    color:#666;
+    font-size:16px;
     border-bottom:1px solid #007eff;
+}
+.container .infor .infor-nameVSserver .select{
+    width:150px;
+    display:inline-block;
+    text-align: center;
+    position:relative;
+    border-bottom:1px solid #007eff;
+    color:#999;
+}
+.container .infor .infor-nameVSserver .select span{
+    font-size:16px;
+    width:100%;
+    height:20px;
+    line-height:20px;
+    display:inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+.container .infor .infor-nameVSserver .select select{
+    width:100%;
+    position:absolute;
+    top:0;left:0;
+    opacity: 0;
+    cursor: pointer;
+}
+.container .infor .infor-nameVSserver select{
+    -webkit-appearance: none;
+    border:none;
+    border-radius:0px;
+    text-align: center;
+    width:150px;
+    background:none;
+    color:#999 !important;
 }
 .container .infor .submit{
     border:none;
@@ -154,4 +178,30 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     background:url('../images/close.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.regular{
+    width:120px;
+    padding:0 5px;
+    height:24px;
+    text-align: center;
+    background:#ff4946;
+    line-height: 24px;
+    position:absolute;
+    top:114px;
+    left:0;
+    right:0;
+    margin:0 auto;
+    font-size:16px;
+    border-radius:3px;
+    opacity:0;
+    transform: translateY(100%);
+}
+.regular span{
+    display:inline-block;
+    color:#fff;
+}
+.fadeIn{
+    transition:all .3s linear;
+    transform: translateY(0);
+    opacity:1;
 }

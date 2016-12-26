@@ -239,21 +239,24 @@ html,body{
 .container .cont-main li .cont-main-left{
     width:180px;
     height:180px;
-    display:inline-block;
+    float:left;
 }
 .container .cont-main li .cont-main-left img{
     width:80px;
     height:80px;
     margin:50px;
 }
+.container .cont-main li .cont-main-r{
+    width:700px;
+    float:left;
+    height:180px;
+    display:table;
+}
 .cont-main-right{
     width:700px;
-    position:absolute;
-    top:0;
-    left:180px;
-    bottom:0;
+    display:table-cell;
     margin:auto 0;
-    display:table;
+    vertical-align: middle;
 }
 .cont-main-right .name{
     color:#000;

@@ -50,9 +50,11 @@ AGG.prototype = {
             "<div class='cont-main-left'>"+
             "<img src= "+ list.img +" alt=''>"+
             "</div>"+
+            "<div class='cont-main-r'>"+
             "<div class='cont-main-right'>"+
             "<div class='name'>"+ list.name +"</div>"+
             "<div class='intro'>"+ list.intro +"</div>"+
+            "</div>"+
             "</div>"+
             "</li>";
             return tmpl;
@@ -100,5 +102,9 @@ AGG.prototype = {
                 $('#zzc').hide();
             })
         })
+        return this
+    },
+    Image: function(){
+        
     }
 }
